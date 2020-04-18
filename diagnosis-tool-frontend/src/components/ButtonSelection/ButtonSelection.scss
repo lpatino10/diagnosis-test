@@ -1,0 +1,26 @@
+.button-selection {
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+  width: 100%;
+
+  .button-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1024px;
+    width: 100%;
+
+    .button {
+      align-items: center;
+      background-color: teal;
+      border-radius: 1rem;
+      color: white;
+      display: flex;
+      justify-content: center;
+      height: 7rem;
+      margin: 1rem;
+      width: 14rem;
+    }
+  }
+}
